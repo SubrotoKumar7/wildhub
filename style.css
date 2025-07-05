@@ -342,3 +342,76 @@
     display: block;
     margin: 7px 0;
 }
+/* about and contact section area */
+.about-section-area{
+    background-color: #111;
+    padding: 30px 0;
+}
+.last-section{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.about-area h1, .social-area h1, .contact-area h1{
+    padding: 20px 0;
+    color: white;
+}
+.last-section span{
+    color: #6B8E23;
+}
+.last-section .about-area{
+    width: 33%;
+    padding: 20px 0;
+}
+.about-area p{
+    color: white;
+    font-size: 17px;
+    padding: 15px 0;
+}
+.social-area{
+    width: 33%;
+    padding: 20px 0 0 50px;
+}
+.social-area ul{
+    list-style-type: none;
+}
+.social-area li{
+    display: block;
+    padding: 15px 0;
+}
+.social-area li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.social-area li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #6B8E23;
+    text-decoration-thickness: 2px;
+    text-underline-position: 10px;
+}
+.last-section .contact-area{
+    width: 33%;
+    padding: 20px 0;
+}
+.contact-area input{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+}
+.contact-area textarea{
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    font-size: 15px;
+}
+.contact-area input[type="submit"]{
+    background-color: #6B8E23;
+    color: white;
+    font-size: 20px;
+    font-variant: small-caps;
+    border: none;
+    cursor: pointer;
+}
