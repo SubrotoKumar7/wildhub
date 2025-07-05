@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inconsolata", monospace;
+    scroll-behavior: smooth;
 }
 .container{
     width: 90%;
@@ -32,7 +33,7 @@
 .header-area{
     width: 100vw;
     height: 100vh;
-    background: url(img/egale.jpg) no-repeat center center / cover;
+    background: url(img/background.jpg) no-repeat center center / cover;
     background-attachment: fixed;
     position: relative;
 }
