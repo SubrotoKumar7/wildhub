@@ -123,12 +123,6 @@
     gap: 20px;
     margin: 0 0 40px;
 }
-.animals-section-area .animals-area:nth-child(odd) .animals-text-area{
-    background: linear-gradient(to bottom,#6B8E23, #242e10);
-}
-.animals-section-area .animals-area:nth-child(even) .animals-text-area{
-    background: linear-gradient(to bottom,#242e10, #6B8E23);
-}
 .animals-area .animals-img-area .animals-img{
     width: 100%;
     height: 450px;
