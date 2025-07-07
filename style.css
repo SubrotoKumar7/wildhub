@@ -123,19 +123,24 @@
     gap: 20px;
     margin: 0 0 40px;
 }
+.animals-img-area, .animals-text-area{
+    width: 50%;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
 .animals-area .animals-img-area .animals-img{
     width: 100%;
     height: 450px;
     box-shadow: 10px 20px 10px black;
     border-radius: 10px / 30px;
 }
-.animals-img-area, .animals-text-area{
-    width: 50%;
-    padding: 10px 30px;
-    border-radius: 10px;
-}
 .animals-area .animals-text-area{
     text-align: justify;
+}
+.animals-area .animals-text-area .topic{
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
 }
 .animals-area .animals-text-area .name{
     font-size: 40px;
@@ -158,7 +163,7 @@
     text-align: center;
     padding: 10px 20px;
     margin: 20px auto;
-    background-color: black;
+    background-color: #6B8E23;
     color: white;
 }
 /* gallery section area */
