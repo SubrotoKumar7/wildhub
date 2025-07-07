@@ -99,11 +99,12 @@
     border-radius: 5px;
     color: white;
     letter-spacing: 6px;
-    display: block;
+    display: inline-block;
     margin: 50px auto;
     transition: 0.5s all ease-in-out;
     background-color: #6B8E23;
     border: 2px solid #6B8E23;
+    text-decoration: none;
 }
 .header-area .header-text #header-btn:hover{
     background-color: transparent;
