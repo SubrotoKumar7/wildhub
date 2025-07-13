@@ -6,6 +6,10 @@
     font-family: "Inconsolata", monospace;
     scroll-behavior: smooth;
 }
+::selection{
+    background-color: #6B8E23;
+    color: white;
+}
 .container{
     width: 90%;
     margin: auto;
@@ -166,6 +170,7 @@
     margin: 20px auto;
     background-color: #6B8E23;
     color: white;
+    border-radius: 5px;
 }
 /* gallery section area */
 .gallery-area{
@@ -206,7 +211,6 @@
     top: 100%;
     left: 0;
     transform: translateY(-100%);
-    border-top-right-radius: 30px;
 }
 /* fun fact area */
 .fact-section-area{
@@ -400,12 +404,18 @@
     width: 100%;
     margin: 20px 0;
     padding: 10px;
+    border-radius: 5px;
 }
 .contact-area textarea{
     width: 100%;
     min-height: 100px;
     padding: 10px;
     font-size: 15px;
+    border-radius: 5px;
+    color: #333;
+}
+.contact-area input:focus, .contact-area textarea:focus{
+    outline-color: #6B8E23;
 }
 .contact-area input[type="submit"]{
     background-color: #6B8E23;
